@@ -436,6 +436,10 @@ pre > code{
 /* ----- Table ----- */
 table {
   border-collapse: collapse;
+  overflow:auto;
+}
+.table{
+  overflow-x:auto;
 }
 
 th, td{ 
